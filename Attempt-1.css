@@ -1,0 +1,630 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width:100%;
+    background-color: red;
+    height: 110px;
+}
+span{
+    width: 30%;
+    background-color: green;
+    height: 110px;
+    float: left;
+}
+#Image-0{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dashed blue;
+}
+#P-0{
+    float: right;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+    line-height:110px;
+}
+a{
+    text-decoration: none;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    line-height: 110px;
+    display: inline-block;
+    width: 80px;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    height: 110px;
+    text-align: center;
+}
+li{
+    display: inline-block;
+}
+main{
+    width: 70%;
+    background-color: brown;
+    height: 628px;
+    position: relative;
+    float: right;
+}
+article{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    position: relative;
+    border-radius: 10% 15%;
+    top:15%;
+    left: 33%;
+}
+div{
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: italic;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top:18%;
+}
+aside{
+    width: 30%;
+    height: 628px;
+    float: left;
+    position: relative;
+}
+aside img{
+    width: 100%;
+    height: 300px;
+}
+aside h1{
+   width: 100%;
+   background-color:black;
+   height: 30px;
+   text-align: center;
+   line-height: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: larger;
+   font-style: italic;
+   color: red;
+   position: absolute;
+   top:47%; 
+   border-bottom: 5px dashed red;
+   border-top:5px dashed red;
+   padding: 10px 0px;
+}
+#Image-2,#Image-3,#Image-4,#Image-5{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+#Image-2{
+   border: 5px dashed red;
+   top:75%;
+   left: 15%;
+}
+#Image-3{
+    border: 5px dashed green;
+    top:60%;
+    left: 30%;
+}
+#Image-4{
+    border: 5px dashed blue;
+    top: 75%;
+    left: 45%;
+}
+#Image-5{
+   border: 5px dashed brown;
+   top: 60%;
+   left: 60%;
+}
+#Thead-1{
+    background-color: red;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-1,#Input-2,#Input-3,#Input-4,#Input-5,#Input-6,#Input-7,#Input-8,#Input-9,#Input-10{
+    text-align: end;
+    margin-right: 5px;
+}
+#Tbody-1{
+    background-color:green;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-2{
+    width: 197px;
+}
+#Tbody-2{
+    background-color:blue;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-3{
+    width: 173px;
+}
+#Tbody-3{
+    background-color:brown;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-4{
+    width: 180px;
+}
+#Tfoot-1{
+    background-color:black;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Button-1{
+    padding: 10px 15px;
+}
+#P-1{
+    width: 100%;
+    background-color:green;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    text-shadow: 5px 6px 2px black;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+}
+.Image{
+    width: 100px;
+    height: 100px;
+}
+#P-2{
+    width: 100%;
+    background-color:red;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    text-shadow: 5px 6px 2px black;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+}
+#Button-2{
+    padding: 10px 15px;
+}
+#Thead-2{
+    background-color: red;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-5{
+    width:180px;
+}
+#Tbody-4{
+    background-color: green;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-6{
+    width:156px;
+}
+#Tbody-5{
+    background-color:blue;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-7{
+    width:193px;
+}
+#Tbody-6{
+    background-color:brown;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-8{
+    width:211px;
+}
+#Tbody-7{
+    background-color:black;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-9{
+    width:194px;
+}
+#Tfoot-2{
+    background-color:cadetblue;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-10{
+    width:194px;
+}
+#Button-3{
+    padding: 10px 15px;
+}
+#Div-1{
+    width: 1000px;
+    border: 5px dashed black;
+    height: 205px;
+    display: flex;
+    flex-direction: row;
+}
+#P-3,#P-4,#P-5,#P-6,#P-7{
+    width: 200px;
+    height: 200px;
+}
+ #P-3{
+    background-color: red;
+}
+#P-4{
+    background-color:green;
+}
+#P-5{
+    background-color:blue;
+}
+#P-6{
+    background-color:brown;
+}
+#P-7{
+    background-color: black;
+}
+#Tbody-8{
+    background-color: green;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-11{
+    width: 418px;
+    text-align: end;
+}
+#Tbody-9{
+    background-color: blue;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+textarea{
+    text-align: end;
+}
+#Tfoot-3{
+    background-color:brown;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Button-4{
+    padding: 10px 15px;
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+    span{
+        display: none;
+    }
+    aside{
+        width:100%;
+        float: right;
+    }
+    main{
+        width: 100%;
+        position: relative;
+    }
+    article{
+        position: absolute;
+        left: 4%;
+    }
+    #Table-1{
+        transform: translate(33%,180%);
+    }
+    #Button-1{
+        transform: translate(130%,567%);
+    }
+    #Table-2{
+        width: 100%;
+    }
+    .Image{
+        width:87px;
+    }
+    .Td{
+        text-align: center;
+    }
+    #Button-2{
+        width: 100%;
+    }
+    #Table-3{
+        transform: translate(30%,150%);
+    }
+    #Button-3{
+        transform: translate(140%,560%);
+    }
+    #Div-1{
+      width: 100%;
+      height:560px;
+      display: flex;
+      flex-direction: column;
+    }
+    #P-3,#P-4,#P-5,#P-6,#P-7{
+        width: 100%;
+        height: 70px;
+        position: absolute;
+    }
+    #P-4,#P-5,#P-7{
+        line-height: 35px;
+    }
+    #P-3{
+      top: 0%;
+    }
+    #P-3{
+        top:15%;
+    }
+    #P-4{
+        top:30%;
+    }
+    #P-5{
+        top:45%;
+    }
+    #P-6{
+        top:60%;
+    }
+    #P-7{
+        top:75%;
+    }
+    #Table-4{
+        width:100%;
+    }
+    #Input-11{
+        width: 465px;
+    }
+    #Button-4{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+    span{
+        width: 35%;
+        background-color: blue;
+        height: 110px;
+    }
+    #Image-0{
+      width: 70px;
+      border: 5px dashed red;
+    }
+    #P-0{
+        font-size:larger;
+    }
+    aside{
+        width: 35%;
+        position: relative;
+    }
+    #Image-2{
+        position: absolute;
+        left:5%;
+    }
+    #Image-3{
+        position: absolute;
+        left:20%;
+    }
+    #Image-4{
+        position: absolute;
+        left:35%;
+    }
+    #Image-5{
+        position: absolute;
+        left:50%;
+    }
+    main{
+        width: 65%;
+        position: relative;
+    }
+    article{
+        position: absolute;
+        left:10%;
+    }
+    #Table-1{
+        transform: translate(100%,185%);
+    }
+    #Button-1{
+        transform: translate(280%,591%);
+    }
+    #Table-2{
+        width:100%;
+    }
+    .Image{
+        width: 166px;
+    }
+    .Td{
+        text-align: center;
+    }
+    #Button-2{
+        width: 100%;
+    }
+    #Table-3{
+        transform: translate(90%,150%);
+    }
+    #Button-3{
+        transform: translate(285%,572%);
+    }
+    #Div-1{
+        width: 99%;
+        transform:translateY(15%);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #P-3,#P-4,#P-5,#P-6,#P-7{
+        width: 151px;
+        line-height:70px;
+    }
+    #P-4,#P-5,#P-7{
+        line-height:30px;
+    }
+    #Input-11{
+      width: 100%;
+    }
+    #Button-4{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1279px){
+    span{
+        width: 37%;
+        background-color: brown;
+        height: 110px;
+    }
+    aside{
+        width: 37%;
+        position: relative;
+        height: 520px;
+    }
+    aside img{
+        height:320px;
+    }
+    main{
+        width: 63%;
+        position: relative;
+    }
+    article{
+        position: absolute;
+        top:16%;
+        left:28%;
+    }
+    aside h1{
+        position: absolute;
+        top:60%;
+    }
+    #Image-2,#Image-4{
+        position: absolute;
+        top:90%;
+    }
+    #Image-3,#Image-5{
+        position: absolute;
+        top: 75%;
+    }
+    #Table-1{
+        transform: translate(200%,170%);
+    }
+    #Button-1{
+        transform: translate(500%,543%);
+    }
+    #Table-2{
+        width: 100%;
+    }
+    .Image{
+        width: 292px;
+    }
+    .Td{
+        text-align: center;
+    }
+    #Button-2{
+        width: 100%;
+    }
+    #Table-3{
+        transform: translate(180%,150%);
+    }
+    #Button-3{
+        transform: translate(500%,572%);
+    }
+    #Div-1{
+        width: 99%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #P-3,#P-4,#P-5,#P-6,#P-7{
+        width: 252px;
+    }
+    #Table-4{
+        width: 100%;
+    }
+    #Input-11{
+        width: 832px;
+    }
+    #Button-4{
+        width:100%;
+    }
+}
+@media only screen and (min-width:1280px) {
+    span{
+        background-color: black;
+    }
+    nav{
+        background-color: blue;
+    }
+    #Table-1{
+        transform: translate(260%,175%);
+    }
+    #Button-1{
+        transform: translate(635%,560%);
+    }
+    #Table-2{
+        width:100%;
+    }
+    .Image{
+        width: 355px;
+    }
+    .Td{
+        text-align: center;
+    }
+    #Button-2{
+        width: 100%;
+    }
+    #Table-3{
+        transform: translate(220%,140%);
+    }
+    #Button-3{
+        transform: translate(600%,533%);
+    }
+    #Div-1{
+        width: 99%;
+        transform: translateY(-7%);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #P-3,#P-4,#P-5,#P-6,#P-7{
+        width: 304px;
+    }
+    #Table-4{
+        width: 100%;
+    }
+    #Input-11{
+        width: 1092px;
+    }
+    #Button-4{
+        width:100%;
+    }
+}
